@@ -11,8 +11,8 @@ var express = require('express'),
   
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/Tododb'); 
-
+//mongoose.connect('mongodb://localhost/Tododb'); 
+mongoose.connect('mongodb://talal:asd123@ds141088.mlab.com:41088/heroku_12rxd4s8'); 
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
